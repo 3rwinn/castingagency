@@ -1,0 +1,1 @@
+url for login: https://dev-4twhnf2s.auth0.com/login?state=g6Fo2SBLUzZWOU9IWnFDTXVFcEl5b1BGa0sxdURhRUpwT3U3LaN0aWTZIDBJbnZfeldrWHVUbmk1S0ZBYzdXckJoM0FWS18xM1RQo2NpZNkga2g5UlZFeUhZUU9Zc0s0bUNCZ000ZjZZNnM3VGpIVjE&client=b6j58h2PZlaXw5Z9s0dPVnI33QkMQqt9&protocol=oauth2&audience=casting&response_type=token&redirect_uri=http%3A%2F%2Flocalhost%3A5000%2Flogin-results
