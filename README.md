@@ -24,7 +24,13 @@ pip install -r requirements.txt
 This will install all of the required packages we selected within the `requirements.txt` file.
 
 ## Local Database Setup
-To set up local database just change LOCAL_DATABASE_URL variable in config.py file.
+To set up local database just change LOCAL_DATABASE_URL variable in config.py file. 
+After that run theses commands: (*notice: make sure virtual environment is active before running theses commands*)
+```
+python manage.py db init
+python manage.py db migrate
+python manage.py db upgrade
+```
 
 ## Running the server locally
 
