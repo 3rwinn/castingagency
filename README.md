@@ -25,7 +25,7 @@ This will install all of the required packages we selected within the `requireme
 
 ## Local Database Setup
 To set up local database just change LOCAL_DATABASE_URL variable in config.py file. 
-After that run theses commands: (*notice: make sure virtual environment is active before running theses commands*)
+After that run these commands: (*notice: make sure virtual environment is active before running these commands*)
 ```
 python manage.py db init
 python manage.py db migrate
