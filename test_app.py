@@ -17,9 +17,11 @@ class CastingAgencyTestCase(unittest.TestCase):
         """Define test variables and initialize app."""
         self.app = create_app()
         self.client = self.app.test_client
-        self.database_name = "casting_test"
-        self.database_path = "postgres://{}:{}@{}/{}".format('postgres', 'superadmin', 'localhost:5432',
-                                                             self.database_name)
+        self.database_name = "casting_test.db"
+        self.db_dir = os.path.dirname(os.path.abspath(__file__))
+        self.database_path = "sqlite:///{}".format(
+            os.path.join(self.db_dir, self.database_name)
+        )
         setup_db(self.app, self.database_path)
 
         self.new_movie = {
